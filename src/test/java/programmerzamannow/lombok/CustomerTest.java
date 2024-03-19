@@ -14,4 +14,15 @@ public class CustomerTest {
         System.out.println(customer.getName());
 
     }
+
+    @Test
+    void testCustomerConstructor() {
+        var customer = new Customer("ID", "NAME");
+        customer.setId("100");
+        customer.setName("Hanif");
+
+        System.out.println(customer.getId());
+        System.out.println(customer.getName());
+
+    }
 }
