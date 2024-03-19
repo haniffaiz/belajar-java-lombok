@@ -16,4 +16,14 @@ public class LoginTest {
 
 
     }
+
+    @Test
+    void testToString() {
+
+        var login2 = Login.create("hanif", "rahasia");
+
+        System.out.println(login2);
+
+
+    }
 }
